@@ -46,9 +46,9 @@
 
    <main class="container mx-auto">
         <section class="my-24">
-            <h2 class="text-white text-center text-3xl my-12"> Our Services </h2>
+            <h2 class="text-white text-center text-2xl sm:text-3xl  mb-12"> Our Services </h2>
 
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <div class="bg-gray-800 text-white text-center p-8 border-4 border-[#1F2937] hover:border-indigo-700 rounded-lg cursor-pointer">
                     <img class="w-1/2 mx-auto" src="pic/frontEnd.png" alt="">
                     <h4 class="text-lg my-5 underline underline-offset-8"> Front End Devolopment </h4>
@@ -82,10 +82,78 @@
                 
             </div>
         </section>
-    
-    </section>
 
-   </main>
+        
+        <!-- second section code start  -->
+
+        <section  class="bg-slate-900 grid place-content-center text-center py-16  md:py-48 mb-24">
+
+            <div class="md:flex justify-center items-center text-white gap-5 sm:gap-8 md:gap-12 lg:gap-x-48">
+                <div class="text-lg sm:text-xl md:text-4xl ">
+                    <p class="text-yellow-500 animate-bounce mb-10"> My Clients </p>
+                    <h2 class="mb-10 md:mb-0"> My Take care of <br> more than 500k <br> Customers </h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8 md:gap-12">
+                   <div>
+                        <img src="pic/client-01.png" alt="">
+                        <h3> One Pluse </h3>
+                   </div>
+                   <div>
+                        <img src="pic/client-02.png" alt="">
+                        <h3> Tencent </h3>
+                   </div>
+                   <div>
+                        <img src="pic/client-03.png" alt="">
+                        <h3> Apple </h3>
+                   </div>
+                   <div>
+                        <img src="pic/client-04.png" alt="">
+                        <h3> Microsoft </h3>
+                   </div>
+                   <div>
+                        <img src="pic/client-05.png" alt="">
+                        <h3> Lenovo </h3>
+                   </div>
+                   <div>
+                        <img src="pic/client-06.png" alt="">
+                        <h3> Huawei </h3>
+                   </div>
+                   <div>
+                        <img src="pic/client-07.png" alt="">
+                        <h3> Nexus </h3>
+                   </div>
+                   <div>
+                        <img src="pic/client-08.png" alt="">
+                        <h3> Tesla </h3>
+                   </div>
+                   <div>
+                        <img src="pic/client-09.png" alt="">
+                        <h3> Brave </h3>
+                   </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- form section code start  -->
+
+        <section>
+            <div class="bg-gray-800 py-16 md:py-24">
+                <h3 class=" text-xl sm:text-3xl text-white text-center mb-10"> Ask a question </h3>
+
+                <form>
+                    <input class="block mx-auto w-5/6 sm:w-1/2 h-12 placeholder:italic px-5 placeholder:text-orange-800 border-2 border-orange-800 rounded mb-10" type="email" placeholder="Your E-mail">
+
+                    <textarea class="block mx-auto w-5/6 sm:w-1/2 h-52 placeholder:italic placeholder:text-orange-800 px-5 py-5 border-2 border-orange-800 rounded mb-10" placeholder="Your question"></textarea>
+
+                    <button class="block text-white text-xl bg-green-900 hover:bg-green-600 mx-auto px-10 py-4 transition"> Send Now </button>
+                </form>
+            </div>
+        </section>
+
+
+    </main>
 
     
 </body>
